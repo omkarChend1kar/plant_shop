@@ -1,7 +1,5 @@
 # Plant Shop 
 
-![Plant Listing App](path_to_your_app_screenshot.png)
-
 ## Features
 
 - Displays a list of plants with images, names, prices, and like/add icons.
