@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Succulent Plant",
+      "price": 39.99,
+      "isLiked": true,
+      "isAdded": true,
+      "image": "assets/images/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Snake Plant",
+      "price": 29.99,
+      "isLiked": false,
+      "isAdded": false,
+      "image": "assets/images/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Ravenea Plant",
+      "price": 25.99,
+      "isLiked": false,
+      "isAdded": false,
+      "image": "assets/images/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Potted Plant",
+      "price": 19.99,
+      "isLiked": false,
+      "isAdded": false,
+      "image": "assets/images/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Money Plant",
+      "price": 19.99,
+      "isLiked": false,
+      "isAdded": false,
+      "image": "assets/images/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Money Plant",
+      "price": 19.99,
+      "isLiked": false,
+      "isAdded": false,
+      "image": "assets/images/6.png"
+    }
+  ]
