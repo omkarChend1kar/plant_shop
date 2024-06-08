@@ -1,17 +1,66 @@
-# plant_shop
+# Plant Shop 
 
-A new Flutter project.
+![Plant Listing App](path_to_your_app_screenshot.png)
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Displays a list of plants with images, names, prices, and like/add icons.
+- Data is loaded from a local JSON file.
+- Uses Cubit for state management and business logic.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+### Steps
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# plant_shop
+    ```bash
+    git clone https://github.com/omkarChend1kar/plant_shop
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd plant_shop
+    ```
+
+3. Get the dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+Once the app is running, you will see a grid of plants. Each grid item displays an image of the plant, its name, price, and icons for liking or adding the plant.
+
+## Technologies
+
+- Flutter
+- Dart
+- Cubit (part of the Bloc library)
+
+## Project Structure
+
+```plaintext
+lib/
+├── services/
+│   ├── repositories/
+│   │   └── plant_repository.dart
+│   ├── models/
+│   │   └── plant.dart
+├── views/
+│   ├── state/
+│   │   └── plant_cubit.dart
+│   │   └── plant_state.dart
+│   ├── pages/
+│   │   └── plant_list_page.dart
+│   ├── widgets/
+│   │   └── plant_grid_item.dart
+└── main.dart
+
