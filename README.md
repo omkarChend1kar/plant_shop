@@ -54,8 +54,8 @@ lib/
 │   │   └── plant.dart
 ├── views/
 │   ├── state/
-│   │   └── plant_cubit.dart
-│   │   └── plant_state.dart
+│   │   └── get-plant_cubit.dart
+│   │   └── get_plant_state.dart
 │   ├── pages/
 │   │   └── plant_list_page.dart
 │   ├── widgets/
